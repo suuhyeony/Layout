@@ -1,0 +1,67 @@
+#toggle {
+  display: none;
+}
+
+#main_header {
+  height: 45px;
+  background: #D66D75;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E29587, #D66D75); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: relative;
+  text-align: center;
+  line-height: 45px;
+}
+
+#main_header > h1 {
+  color: #fff;
+}
+
+#main_header > a, #main_header > label {
+  display: block;
+  height: 32px;
+  position: absolute;
+}
+
+#main_header > a.left {
+  width: 30px;
+  left: 5px;
+  top: 7px;
+  margin-left: 3px;
+  background: url('../../../assets/icons/css_sprites.png') no-repeat;
+  background-position: 0px 2px;
+  background-size: cover;
+  text-indent: -99999px;
+}
+
+#main_header > label.right {
+  width: 32px;
+  right: 5px;
+  top: 7px;
+  margin-right: 3px;
+  cursor: pointer;
+  background: url('../../../assets/icons/css_sprites.png') no-repeat;
+  background-position: 0px -34px;
+  background-size: cover;
+  text-indent: -99999px;
+}
+
+#commerce_header {
+  position: relative;
+  height: 75px;
+}
+
+#commerce_header > h1.logo {
+  position: absolute;
+  left: 15px;
+  top: 10px;
+}
+
+#commerce_header > div.login_menu {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+
+#commerce_header > div.login_menu > span {
+  margin: 3px;
+}

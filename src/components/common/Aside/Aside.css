@@ -1,0 +1,11 @@
+#global_aside {
+  position: absolute;
+  left: 990px;
+  top: 75px;
+  width: 90px;
+}
+
+#global_aside > a {
+  display: block;
+  margin-bottom: 5px;
+}

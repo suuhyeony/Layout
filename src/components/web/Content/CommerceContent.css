@@ -1,0 +1,22 @@
+#content { 
+  margin-top: 10px; 
+}
+
+#product_section {
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+#product_section > #product_article {
+  float: left;
+  width: 795px;
+}
+
+#product_section > #product_aside {
+  float: right;
+  padding-bottom: 5px;
+  width: 170px;
+}
+#product_section > #product_article > img { 
+  display: block; 
+}

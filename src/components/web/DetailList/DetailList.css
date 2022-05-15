@@ -1,0 +1,30 @@
+#detail_list {
+  overflow: hidden;
+  padding: 10px;
+  background-color: #3b414d;
+  padding-bottom: 15px;
+}
+
+#detail_list > ul {
+  float: left;
+  width: 192px;
+}
+
+#detail_list > ul > li {
+  height: 13px;
+  margin-top: 5px;
+  padding: 3px 5px;
+  color: #f3f3f3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#detail_list > ul > li.header {
+  padding-left: 15px;
+}
+
+#detail_list > ul > li.header > p {
+  font-weight: bold;
+  color: #48c5ff;
+}
